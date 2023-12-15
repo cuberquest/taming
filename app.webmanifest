@@ -1,0 +1,8 @@
+{
+  "name": "Taming.io",
+  "short_name": "Taming",
+  "start_url": ".",
+  "description": "A replica of Taming.io!",
+  "display": "standalone",
+  "icons": []
+}
