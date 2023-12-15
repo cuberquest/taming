@@ -2,7 +2,7 @@
 html, body { width: 100%; min-height: 100%; margin: 0; padding: 0; overflow-y: clip; }
 
 #game {
-  width: max(100%, 100vw, auto);
-  height: max(100%, 100vh, auto);
+  width: max(100%, 100vw);
+  height: max(100%, 100vh);
   border: none;
 }
