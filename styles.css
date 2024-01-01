@@ -5,4 +5,22 @@ html, body { width: 100%; min-height: 100%; margin: 0; padding: 0; overflow-y: c
   width: max(100%, 100vw);
   height: max(100%, 100vh);
   border: none;
+  position: absolute;
+  top: 0;
+}
+
+div#play-menu {
+  width: 45rem;
+  height: 35rem;
+  border: 1.25rem solid #b08f54;
+  border-radius: 5rem;
+  background-color: #dcb369;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
