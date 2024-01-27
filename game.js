@@ -1,7 +1,7 @@
 const canvas = document.body.insertBefore(document.body.appendChild(document.createElement("canvas")), document.body.childNodes[0]),
 ctx = canvas.getContext("2d");
 canvas.id = "game";
-canvas.classList.add("abs", "no-border");
+canvas.classList.add("absolute", "no-border");
 
 const game = {
   canvas,
